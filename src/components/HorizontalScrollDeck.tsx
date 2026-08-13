@@ -448,13 +448,13 @@ export const HorizontalScrollDeck: React.FC<HorizontalScrollDeckProps> = ({ onOp
               </div>
 
               <div className="flex flex-col sm:flex-row items-center gap-4">
-                <button
-                  onClick={onOpenApply}
+                <a
+                  href="https://forms.amocrm.ru/rztwtdc" target="_blank" rel="noopener noreferrer"
                   className="w-full sm:w-auto bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 text-white font-medium text-xs sm:text-sm px-8 py-4 rounded-full shadow-[0_0_20px_rgba(99,102,241,0.2)] hover:shadow-[0_0_30px_rgba(99,102,241,0.4)] active:scale-95 transition-all flex items-center justify-center gap-2"
                 >
                   <span>Hoziroq Hujjat Topshirish</span>
                   <ArrowUpRight className="w-4 h-4 text-indigo-400" />
-                </button>
+                </a>
 
                 <a
                   href={`tel:${UNIVERSITY_INFO.shortPhone}`}

@@ -150,14 +150,14 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenApply, onScrollT
           transition={{ duration: 0.6, delay: 0.4 }}
           className="flex flex-wrap items-center gap-4"
         >
-          <button
-            onClick={onOpenApply}
+          <a
+            href="https://forms.amocrm.ru/rztwtdc" target="_blank" rel="noopener noreferrer"
             className="bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 text-white px-8 py-4 rounded-full font-medium text-sm shadow-[0_0_20px_rgba(99,102,241,0.2)] hover:shadow-[0_0_30px_rgba(99,102,241,0.4)] hover:scale-[1.02] active:scale-95 transition-all flex items-center gap-2"
           >
             <Sparkles className="w-4 h-4 text-indigo-400" />
             <span>HOZIROQ HUJJAT TOPSHIRISH</span>
             <ArrowRight className="w-4 h-4" />
-          </button>
+          </a>
 
           <button
             onClick={() => onScrollToSection('horizontal-deck')}

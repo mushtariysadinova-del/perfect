@@ -299,13 +299,13 @@ export const DiscountCalculator: React.FC<DiscountCalculatorProps> = ({ onOpenAp
               </p>
             </div>
 
-            <button
-              onClick={() => onOpenApplyWithProgram(selectedProgram.id)}
+            <a
+              href="https://forms.amocrm.ru/rztwtdc" target="_blank" rel="noopener noreferrer"
               className="w-full bg-white/10 hover:bg-white/20 border border-white/20 text-white font-medium text-xs sm:text-sm py-4 rounded-full shadow-[0_0_20px_rgba(99,102,241,0.2)] active:scale-95 transition-all flex items-center justify-center gap-2 backdrop-blur-md"
             >
               <span>Ushbu Chegirma Bilan Topshirish</span>
               <ArrowRight className="w-4 h-4 text-indigo-400" />
-            </button>
+            </a>
 
             <div className="mt-4 text-[11px] text-slate-400 text-center flex items-center justify-center gap-1 font-light">
               <ShieldCheck className="w-3.5 h-3.5 text-indigo-400 inline" />

@@ -7,15 +7,10 @@ import { ProgramExplorer } from './components/ProgramExplorer';
 import { DiscountCalculator } from './components/DiscountCalculator';
 import { InternationalShowcase } from './components/InternationalShowcase';
 import { Footer } from './components/Footer';
-import { ApplyModal } from './components/ApplyModal';
 
 export default function App() {
-  const [isApplyOpen, setIsApplyOpen] = useState(false);
-  const [initialProgramId, setInitialProgramId] = useState<string | undefined>(undefined);
-
   const handleOpenApply = (programId?: string) => {
-    setInitialProgramId(programId);
-    setIsApplyOpen(true);
+    window.open('https://forms.amocrm.ru/rztwtdc', '_blank');
   };
 
   const handleScrollToSection = (id: string) => {
@@ -77,13 +72,6 @@ export default function App() {
       <Footer 
         onOpenApply={() => handleOpenApply()} 
         onScrollToSection={handleScrollToSection} 
-      />
-
-      {/* Online Application Modal */}
-      <ApplyModal 
-        isOpen={isApplyOpen} 
-        onClose={() => setIsApplyOpen(false)} 
-        initialProgramId={initialProgramId} 
       />
       </div>
     </div>

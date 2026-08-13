@@ -131,13 +131,13 @@ export const ProgramExplorer: React.FC<ProgramExplorerProps> = ({ onSelectProgra
                   <div className="text-base font-bold text-indigo-400">{program.formattedPrice}</div>
                 </div>
 
-                <button
-                  onClick={() => onSelectProgramForApply(program.id)}
+                <a
+                  href="https://forms.amocrm.ru/rztwtdc" target="_blank" rel="noopener noreferrer"
                   className="bg-white/10 hover:bg-white/20 border border-white/20 text-white text-xs font-medium px-4 py-2.5 rounded-full shadow-[0_0_15px_rgba(99,102,241,0.2)] transition-all flex items-center gap-1.5 backdrop-blur-md"
                 >
                   <span>Topshirish</span>
                   <ArrowUpRight className="w-4 h-4 text-indigo-400" />
-                </button>
+                </a>
               </div>
 
             </motion.div>
