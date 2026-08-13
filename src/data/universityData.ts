@@ -318,18 +318,18 @@ export const PARTNERS: PartnerUniversity[] = [
     description: "Turkiyaning TOP universitetlari bilan birgalikda 2+2 va 3+1 dual diplom dasturlari."
   },
   {
-    country: "Chexiya",
-    countryCode: "cz",
-    flagUrl: "https://flagcdn.com/w80/cz.png",
-    title: "Yevropa Standardi Almashinuvi",
-    description: "Markaziy Yevropadagi hamkor oliygohlarda 1 semestr bepul ta'lim va grant loyihalari."
+    country: "Malayziya",
+    countryCode: "my",
+    flagUrl: "https://flagcdn.com/w80/my.png",
+    title: "Janubi-Sharqiy Osiyoda Ta'lim",
+    description: "Malayziyadagi nufuzli universitetlar bilan hamkorlikda xalqaro ta'lim va almashinuv dasturlari."
   },
   {
-    country: "Latviya",
-    countryCode: "lv",
-    flagUrl: "https://flagcdn.com/w80/lv.png",
-    title: "Baltiqbo'yi Amaliyot Yo'lagi",
-    description: "Yevropa Ittifoqining nufuzli kompaniyalarida yozgi amaliyot va xalqaro sertifikatlar."
+    country: "London",
+    countryCode: "gb",
+    flagUrl: "https://flagcdn.com/w80/gb.png",
+    title: "Angliyada Xalqaro Tajriba",
+    description: "Londonning yetakchi oliygohlarida ta'lim olish, yozgi amaliyotlar va xalqaro sertifikatlar."
   }
 ];
 
