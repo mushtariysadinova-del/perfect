@@ -1,0 +1,6 @@
+{
+  "name": "Tashkent Perfect University",
+  "description": "Tashkent Perfect University rasmiy va zamonaviy interaktiv qabul veb-sayti. Gorizontal va vertikal scroll, interaktiv kalkulyator va animatsiyalar bilan.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
