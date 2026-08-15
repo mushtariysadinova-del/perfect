@@ -89,7 +89,7 @@ export const Footer: React.FC<FooterProps> = ({ onOpenApply, onScrollToSection }
               <li className="flex items-center gap-2.5">
                 <Phone className="w-4 h-4 text-indigo-400 shrink-0" />
                 <a href={`tel:${UNIVERSITY_INFO.shortPhone}`} className="font-medium text-indigo-300 hover:underline">
-                  {UNIVERSITY_INFO.phone} (Call Center: {UNIVERSITY_INFO.shortPhone})
+                  {UNIVERSITY_INFO.phone}
                 </a>
               </li>
 
