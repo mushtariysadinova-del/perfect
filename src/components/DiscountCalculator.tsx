@@ -300,8 +300,8 @@ export const DiscountCalculator: React.FC<DiscountCalculatorProps> = ({ onOpenAp
             </div>
 
             <a
-              href="https://forms.amocrm.ru/rztwtdc" target="_blank" rel="noopener noreferrer"
-              className="w-full bg-white/10 hover:bg-white/20 border border-white/20 text-white font-medium text-xs sm:text-sm py-4 rounded-full shadow-[0_0_20px_rgba(99,102,241,0.2)] active:scale-95 transition-all flex items-center justify-center gap-2 backdrop-blur-md"
+              href="https://forms.amocrm.ru/rztmwrm" target="_blank" rel="noopener noreferrer"
+              className="bg-gradient-to-r from-indigo-600 via-purple-500 to-indigo-600 bg-[length:200%_auto] hover:bg-[right_center] text-white px-6 py-3.5 sm:px-8 sm:py-4 rounded-full font-extrabold text-sm sm:text-base tracking-[0.1em] uppercase shadow-[0_0_20px_rgba(99,102,241,0.5)] hover:shadow-[0_0_40px_rgba(168,85,247,0.6)] border border-indigo-400/30 hover:scale-[1.03] active:scale-95 transition-all duration-300 flex items-center justify-center gap-2"
             >
               <span>Ushbu Chegirma Bilan Topshirish</span>
               <ArrowRight className="w-4 h-4 text-indigo-400" />

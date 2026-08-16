@@ -151,8 +151,8 @@ export const HeroSection: React.FC<HeroSectionProps> = ({ onOpenApply, onScrollT
           className="flex flex-wrap items-center gap-4"
         >
           <a
-            href="https://forms.amocrm.ru/rztwtdc" target="_blank" rel="noopener noreferrer"
-            className="bg-white/10 hover:bg-white/20 backdrop-blur-md border border-white/20 text-white px-8 py-4 rounded-full font-medium text-sm shadow-[0_0_20px_rgba(99,102,241,0.2)] hover:shadow-[0_0_30px_rgba(99,102,241,0.4)] hover:scale-[1.02] active:scale-95 transition-all flex items-center gap-2"
+            href="https://forms.amocrm.ru/rztmwrm" target="_blank" rel="noopener noreferrer"
+            className="bg-gradient-to-r from-indigo-600 via-purple-500 to-indigo-600 bg-[length:200%_auto] hover:bg-[right_center] text-white px-6 py-3.5 sm:px-8 sm:py-4 rounded-full font-extrabold text-sm sm:text-base tracking-[0.1em] uppercase shadow-[0_0_20px_rgba(99,102,241,0.5)] hover:shadow-[0_0_40px_rgba(168,85,247,0.6)] border border-indigo-400/30 hover:scale-[1.03] active:scale-95 transition-all duration-300 flex items-center justify-center gap-2"
           >
             <Sparkles className="w-4 h-4 text-indigo-400" />
             <span>HOZIROQ HUJJAT TOPSHIRISH</span>

@@ -10,7 +10,7 @@ import { Footer } from './components/Footer';
 
 export default function App() {
   const handleOpenApply = (programId?: string) => {
-    window.open('https://forms.amocrm.ru/rztwtdc', '_blank');
+    window.open('https://forms.amocrm.ru/rztmwrm', '_blank');
   };
 
   const handleScrollToSection = (id: string) => {

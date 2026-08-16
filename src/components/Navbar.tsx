@@ -89,7 +89,7 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenApply, onScrollToSection }
           </a>
 
           <a
-            href="https://forms.amocrm.ru/rztwtdc" target="_blank" rel="noopener noreferrer"
+            href="https://forms.amocrm.ru/rztmwrm" target="_blank" rel="noopener noreferrer"
             className="relative group bg-white/10 text-white px-4 py-2 rounded-xl font-semibold text-xs tracking-wide shadow-lg shadow-indigo-500/10 border border-white/20 hover:bg-white/20 hover:scale-[1.02] active:scale-95 backdrop-blur-md transition-all flex items-center gap-1.5"
           >
             <Send className="w-3.5 h-3.5" />

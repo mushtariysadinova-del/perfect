@@ -86,7 +86,7 @@ export const InternationalShowcase: React.FC<InternationalShowcaseProps> = ({ on
 
             <div className="shrink-0 text-center lg:text-right">
               <a
-                href="https://forms.amocrm.ru/rztwtdc" target="_blank" rel="noopener noreferrer"
+                href="https://forms.amocrm.ru/rztmwrm" target="_blank" rel="noopener noreferrer"
                 className="bg-white/10 hover:bg-white/20 border border-white/20 text-white font-medium text-xs sm:text-sm px-7 py-4 rounded-full shadow-[0_0_20px_rgba(99,102,241,0.2)] active:scale-95 transition-all flex items-center gap-2 backdrop-blur-md"
               >
                 <span>Hujjat Topshirish va A'zo Bo'lish</span>

@@ -132,8 +132,8 @@ export const ProgramExplorer: React.FC<ProgramExplorerProps> = ({ onSelectProgra
                 </div>
 
                 <a
-                  href="https://forms.amocrm.ru/rztwtdc" target="_blank" rel="noopener noreferrer"
-                  className="bg-white/10 hover:bg-white/20 border border-white/20 text-white text-xs font-medium px-4 py-2.5 rounded-full shadow-[0_0_15px_rgba(99,102,241,0.2)] transition-all flex items-center gap-1.5 backdrop-blur-md"
+                  href="https://forms.amocrm.ru/rztmwrm" target="_blank" rel="noopener noreferrer"
+                  className="bg-gradient-to-r from-indigo-600 via-purple-500 to-indigo-600 bg-[length:200%_auto] hover:bg-[right_center] text-white px-4 py-2.5 sm:px-6 sm:py-3 rounded-full font-extrabold text-xs sm:text-sm tracking-[0.1em] uppercase shadow-[0_0_15px_rgba(99,102,241,0.4)] hover:shadow-[0_0_30px_rgba(168,85,247,0.6)] border border-indigo-400/30 hover:scale-[1.05] active:scale-95 transition-all duration-300 flex items-center justify-center gap-2"
                 >
                   <span>Topshirish</span>
                   <ArrowUpRight className="w-4 h-4 text-indigo-400" />
